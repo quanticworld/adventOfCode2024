@@ -13,4 +13,4 @@ def part2():
     l2 = [int(e) for e in l2]
     l_dict = Counter(l2)
 
-    return sum([0 if e not in l_dict else e * l_dict[e] for e in l1])
+    return sum(e * l_dict[e] for e in l1 if e in l_dict)
