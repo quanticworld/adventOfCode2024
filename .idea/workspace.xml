@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef51b6eb-6cb7-4bc4-bf6f-e60038b4f7f7" name="Changes" comment="chore: init adv 2k24 !">
+    <list default="true" id="ef51b6eb-6cb7-4bc4-bf6f-e60038b4f7f7" name="Changes" comment="feat: day 2 -">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adv2k24.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv2k24.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.adv2k24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -39,7 +41,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.adv2k24">
     <configuration name="adv2k24" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode2024" />
       <option name="ENV_FILES" value="" />
@@ -63,9 +65,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.adv2k24" />
+        <item itemvalue="Python.code" />
       </list>
     </recent_temporary>
   </component>
@@ -86,6 +112,11 @@
       <option name="presentableId" value="Default" />
       <updated>1732948696162</updated>
       <workItem from="1732948697768" duration="879000" />
+      <workItem from="1733033629188" duration="591000" />
+      <workItem from="1733062589464" duration="3198000" />
+      <workItem from="1733115497136" duration="4351000" />
+      <workItem from="1733126082754" duration="1226000" />
+      <workItem from="1733128237157" duration="11558000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init adv 2k24 !">
       <option name="closed" value="true" />
@@ -95,7 +126,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732949389887</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: day 1 - let's go!!">
+      <option name="closed" value="true" />
+      <created>1733033997737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733033997738</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: day 2 -">
+      <option name="closed" value="true" />
+      <created>1733135658976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733135658976</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,9 +150,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: init adv 2k24 !" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: init adv 2k24 !" />
+    <MESSAGE value="feat: day 1 - let's go!!" />
+    <MESSAGE value="feat: day 2 -" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: day 2 -" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/adventOfCode2024$adv2k24.coverage" NAME="adv2k24 Coverage Results" MODIFIED="1732949150886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adventOfCode2024$code.coverage" NAME="code Coverage Results" MODIFIED="1733117656905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/adventOfCode2024$adv2k24.coverage" NAME="adv2k24 Coverage Results" MODIFIED="1733137178166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
