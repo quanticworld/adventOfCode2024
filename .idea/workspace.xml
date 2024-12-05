@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef51b6eb-6cb7-4bc4-bf6f-e60038b4f7f7" name="Changes" comment="feat: day 2 -">
+    <list default="true" id="ef51b6eb-6cb7-4bc4-bf6f-e60038b4f7f7" name="Changes" comment="feat: day 5 - pfiiiouuuuuuuu">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adv2k24.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv2k24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day5/data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +119,7 @@
       <workItem from="1733115497136" duration="4351000" />
       <workItem from="1733126082754" duration="1226000" />
       <workItem from="1733128237157" duration="11558000" />
+      <workItem from="1733432756357" duration="5679000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init adv 2k24 !">
       <option name="closed" value="true" />
@@ -142,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733135658976</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: day 5 - pfiiiouuuuuuuu">
+      <option name="closed" value="true" />
+      <created>1733438436813</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733438436813</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,10 +163,11 @@
     <MESSAGE value="chore: init adv 2k24 !" />
     <MESSAGE value="feat: day 1 - let's go!!" />
     <MESSAGE value="feat: day 2 -" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: day 2 -" />
+    <MESSAGE value="feat: day 5 - pfiiiouuuuuuuu" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: day 5 - pfiiiouuuuuuuu" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/adventOfCode2024$code.coverage" NAME="code Coverage Results" MODIFIED="1733117656905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
-    <SUITE FILE_PATH="coverage/adventOfCode2024$adv2k24.coverage" NAME="adv2k24 Coverage Results" MODIFIED="1733137178166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adventOfCode2024$adv2k24.coverage" NAME="adv2k24 Coverage Results" MODIFIED="1733438370879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
