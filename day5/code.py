@@ -9,7 +9,7 @@ def is_correct_update(update, rules):
                or update.find(rule[0]) < 0 for rule in rules)
 
 
-rules_tmp, updates = tuple(split_at([line.strip() for line in open("day5/data.txt", "r").readlines()], lambda cr: cr == ''))
+rules_tmp, updates = tuple(split_at([line.strip() for line in open("day5/sample.txt", "r").readlines()], lambda cr: cr == ''))
 rules = {tuple(key.split('|')) for key in rules_tmp}
 
 

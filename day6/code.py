@@ -1,5 +1,4 @@
 from collections import deque
-from itertools import count
 
 
 def find_guard_initial_position(lab_area):
@@ -36,7 +35,7 @@ def replace_element_at(lab_area, x, y, value):
 
 
 def part1():
-    lab_area = [line.strip() for line in open("day6/data.txt", "r").readlines()]
+    lab_area = [line.strip() for line in open("day6/sample.txt", "r").readlines()]
 
     # Setup
     directions = deque(['up', 'right', 'down', 'left'])
@@ -62,7 +61,7 @@ def part1():
 
 
 def part2():
-    lab_area = [line.strip() for line in open("day6/data.txt", "r").readlines()]
+    lab_area = [line.strip() for line in open("day6/sample.txt", "r").readlines()]
     blocking_positions_bruteforce_list = [(x, y) for y in range(len(lab_area)) for x in range(len(lab_area[0]))]
     blocking_positions = []
 

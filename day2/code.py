@@ -2,7 +2,7 @@ import itertools
 
 
 def part1():
-    reports = [[int(e) for e in row.split(' ')] for row in open("day2/data1.txt", "r").readlines()]
+    reports = [[int(e) for e in row.split(' ')] for row in open("day2/sample.txt", "r").readlines()]
     safe_reports_inc = list(
         filter(lambda r: all(r[i] < r[i + 1] and abs(r[i] - r[i + 1]) <= 3 for i in range(len(r) - 1)), reports))
     safe_reports_dec = list(
@@ -12,7 +12,7 @@ def part1():
 
 
 def part2():
-    reports = [[int(e) for e in row.split(' ')] for row in open("day2/data2.txt", "r").readlines()]
+    reports = [[int(e) for e in row.split(' ')] for row in open("day2/sample.txt", "r").readlines()]
     is_sorted_strict = lambda r: all(r[i] < r[i + 1] and abs(r[i] - r[i + 1]) <= 3 for i in range(len(r) - 1))
     is_reverse_sorted_strict = lambda r: all(r[i] > r[i + 1] and abs(r[i] - r[i + 1]) <= 3 for i in range(len(r) - 1))
     is_barely_safe = lambda r: sum([is_sorted_strict(sub_r) or is_reverse_sorted_strict(sub_r) for sub_r in

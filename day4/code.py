@@ -9,12 +9,12 @@ def count_occurrences(patterns, matrix):
     )
 
 def part1():
-    matrix = [line for line in open("day4/data.txt", "r").read().splitlines()]
+    matrix = [line for line in open("day4/sample.txt", "r").read().splitlines()]
     return count_occurrences(patterns_part1, matrix)
 
 
 def part2():
-    matrix = [line for line in open("day4/data.txt", "r").read().splitlines()]
+    matrix = [line for line in open("day4/sample.txt", "r").read().splitlines()]
     return count_occurrences(patterns_part2, matrix)
 
 patterns_part1 = [['XMAS'],
