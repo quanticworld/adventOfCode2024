@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef51b6eb-6cb7-4bc4-bf6f-e60038b4f7f7" name="Changes" comment="feat: day 7 - code dégueu du week-end mais juste ça marche">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adv2k24.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv2k24.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day1/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day8/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day8/sample.txt" afterDir="false" />
-    </list>
+    <list default="true" id="ef51b6eb-6cb7-4bc4-bf6f-e60038b4f7f7" name="Changes" comment="day 8: sit back and relax, calm before the storm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,22 +24,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.adv2k24.executor": "Run",
-    "Python.code (1).executor": "Run",
-    "Python.code.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/quantic/adventofcode/2024/adventOfCode2024",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.adv2k24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.code.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/quantic/adventofcode/2024/adventOfCode2024&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -164,7 +156,7 @@
       <workItem from="1733499907988" duration="4345000" />
       <workItem from="1733552844165" duration="14256000" />
       <workItem from="1733567697408" duration="5117000" />
-      <workItem from="1733642910678" duration="13080000" />
+      <workItem from="1733642910678" duration="13293000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init adv 2k24 !">
       <option name="closed" value="true" />
@@ -230,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733573276616</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="day 8: sit back and relax, calm before the storm">
+      <option name="closed" value="true" />
+      <created>1733678403151</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733678403151</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +244,8 @@
     <MESSAGE value="feat: day 6 - part 1" />
     <MESSAGE value="feat: day 6 - part 2 - perf issue (bug?) - but result ok" />
     <MESSAGE value="feat: day 7 - code dégueu du week-end mais juste ça marche" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: day 7 - code dégueu du week-end mais juste ça marche" />
+    <MESSAGE value="day 8: sit back and relax, calm before the storm" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 8: sit back and relax, calm before the storm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
