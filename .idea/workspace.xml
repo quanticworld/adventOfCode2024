@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef51b6eb-6cb7-4bc4-bf6f-e60038b4f7f7" name="Changes" comment="feat: day 6 - part 2 - perf issue (bug?) - but result ok">
-      <change afterPath="$PROJECT_DIR$/day7/code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/sample.txt" afterDir="false" />
+    <list default="true" id="ef51b6eb-6cb7-4bc4-bf6f-e60038b4f7f7" name="Changes" comment="feat: day 7 - code dégueu du week-end mais juste ça marche">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adv2k24.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv2k24.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day1/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day1/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day6/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day8/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day8/sample.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +163,8 @@
       <workItem from="1733485347372" duration="7079000" />
       <workItem from="1733499907988" duration="4345000" />
       <workItem from="1733552844165" duration="14256000" />
-      <workItem from="1733567697408" duration="4118000" />
+      <workItem from="1733567697408" duration="5117000" />
+      <workItem from="1733642910678" duration="13080000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init adv 2k24 !">
       <option name="closed" value="true" />
@@ -228,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733485205842</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: day 7 - code dégueu du week-end mais juste ça marche">
+      <option name="closed" value="true" />
+      <created>1733573276616</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733573276616</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,9 +243,19 @@
     <MESSAGE value="feat: day 5 - pfiiiouuuuuuuu" />
     <MESSAGE value="feat: day 6 - part 1" />
     <MESSAGE value="feat: day 6 - part 2 - perf issue (bug?) - but result ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: day 6 - part 2 - perf issue (bug?) - but result ok" />
+    <MESSAGE value="feat: day 7 - code dégueu du week-end mais juste ça marche" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: day 7 - code dégueu du week-end mais juste ça marche" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/adv2k24.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="position" />
@@ -255,6 +267,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/adventOfCode2024$code.coverage" NAME="code Coverage Results" MODIFIED="1733117656905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
     <SUITE FILE_PATH="coverage/adventOfCode2024$code__1_.coverage" NAME="code (1) Coverage Results" MODIFIED="1733463774886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
-    <SUITE FILE_PATH="coverage/adventOfCode2024$adv2k24.coverage" NAME="adv2k24 Coverage Results" MODIFIED="1733573038966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adventOfCode2024$adv2k24.coverage" NAME="adv2k24 Coverage Results" MODIFIED="1733678088993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

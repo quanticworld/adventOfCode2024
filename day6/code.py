@@ -107,5 +107,4 @@ def part2():
 
         # Removing a blocking stuff
         replace_element_at(lab_area, retroencabulator_x, retroencabulator_y, replaced_element)
-    print(len(blocking_positions))
     return len(blocking_positions)
