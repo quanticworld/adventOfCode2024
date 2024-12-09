@@ -1,36 +1,37 @@
-from itertools import groupby
-
+from itertools import chain, groupby
 
 def expand_from_allocation_table(allocation_table):
-    return ''.join([str(f_or_s[0]//2) * int(f_or_s[1]) if f_or_s[0] % 2 == 0 else '.' * int(f_or_s[1]) for f_or_s in enumerate(allocation_table)])
+    result = list(chain.from_iterable([[f_or_s[0]//2] * int(f_or_s[1]) if f_or_s[0] % 2 == 0 else [-1] * int(f_or_s[1]) for f_or_s in enumerate(allocation_table)]))
+    return result
 
 def defragment_disk(expanded_data):
-    print(expanded_data)
-    for idx_right, char_right in reversed(list(enumerate(expanded_data))):
-        idx_left = expanded_data.find('.', len(expanded_data) - idx_right-1)
-        char_left = expanded_data[idx_left]
+    last_index_of_empty_space = len(expanded_data) - 1 - expanded_data[::-1].index(-1)
+    for idx_right, _ in reversed(list(enumerate(expanded_data))):
+        remaining_spaces = -1 in expanded_data
 
-        if (idx_right <= idx_left):
-            print(expanded_data)
+        if not remaining_spaces:
             return expanded_data
 
-        expanded_data = swap(expanded_data, idx_left, idx_right)
+        idx_left = expanded_data.index(-1)
+
+
+        swap_and_replace_right(expanded_data, idx_left, idx_right, -2)
     
     return expanded_data
 
 def compute_checksum(data):
-    print(data)
-    print(sum([idx * int(char) for idx, char in enumerate(data[:data.find('.')])]))
-    return 0
+    return sum([idx * value for idx, value in enumerate(data[:data.index(-2)])])
 
-def split_on_diff(string):
-    return [''.join(group) for _, group in groupby(string)]
 
-def swap(s, i, j):
-    return ''.join((s[:i], s[j], s[i+1:j], s[i], s[j+1:]))
+def group_repeated_values(data):
+    return  [list(group) for _, group in groupby(data)]
+
+def swap_and_replace_right(data, i, j, replace_value):
+    data[i] = data[j]
+    data[j] = replace_value
 
 def part1():
-    allocation_table = open("day9/sample.txt", "r").read()
+    allocation_table = open("day9/data.txt", "r").read()
     defragmented_data = defragment_disk(expand_from_allocation_table(allocation_table))
     return compute_checksum(defragmented_data)
 
