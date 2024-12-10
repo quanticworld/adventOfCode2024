@@ -1,5 +1,4 @@
 from collections import defaultdict
-from pprint import pprint
 
 
 def expand_from_allocation_table(allocation_table):
