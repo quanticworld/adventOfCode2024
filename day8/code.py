@@ -59,13 +59,13 @@ def solve(data, signal_strength):
 
 
 def part1():
-    data = [row for row in open("day8/data.txt", "r").read().splitlines()]
+    data = [row for row in open("day8/sample.txt", "r").read().splitlines()]
     antinodes, _ = solve(data, signal_strength=1)
     return sum([sum(1 for v in node if v != 0) for node in antinodes])
 
 
 def part2():
-    data = [row for row in open("day8/data.txt", "r").read().splitlines()]
+    data = [row for row in open("day8/sample.txt", "r").read().splitlines()]
     antinodes, positions_by_symbol = solve(data, signal_strength=len(data) * 2)
 
     for x, y in itertools.chain.from_iterable(positions_by_symbol.values()):

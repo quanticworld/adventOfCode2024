@@ -19,7 +19,7 @@ def calc_next(value, current_iter, max_iter, accu):
 
 
 def solve(iterations):
-    stones = deque([int(stone) for stone in open("day11/data.txt", "r").read().split(' ')])
+    stones = deque([int(stone) for stone in open("day11/sample.txt", "r").read().split(' ')])
     return sum(list(map(lambda value: calc_next(value, 0, iterations, 0), stones)))
 
 

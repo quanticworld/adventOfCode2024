@@ -2,7 +2,7 @@ from collections import defaultdict, deque
 
 
 def solve(take_all_ratings):
-    data = [[int(col) for col in row] for row in open("day10/data.txt", "r").read().splitlines()]
+    data = [[int(col) for col in row] for row in open("day10/sample.txt", "r").read().splitlines()]
     # Build dict of neighbours for each position
     nearby_positions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
     trailheads = defaultdict(int)

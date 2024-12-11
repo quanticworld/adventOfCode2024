@@ -79,14 +79,13 @@ def swap_last_value_with_first_space(value_positions, space_positions, idx, idx_
 
 
 def part1():
-    allocation_table = open("day9/data.txt", "r").read()
+    allocation_table = open("day9/sample.txt", "r").read()
     defragmented_data = defragment_disk(expand_from_allocation_table(allocation_table))
     return compute_checksum(defragmented_data)
 
 
 def part2():
-    allocation_table = open("day9/data.txt", "r").read()
+    allocation_table = open("day9/sample.txt", "r").read()
     defragmented_data = defragment_disk_part2(expand_from_allocation_table(allocation_table))
     result = compute_checksum(defragmented_data)
-    print(result)
     return result
